@@ -8,6 +8,7 @@ const routes: Routes = [
     { path: '', component: PodcastsComponent },
     { path: 'podcast/:id', component: EpisodesComponent },
 ];
+
 @NgModule({
     imports: [ RouterModule.forRoot(routes) ],
     exports: [ RouterModule ]
